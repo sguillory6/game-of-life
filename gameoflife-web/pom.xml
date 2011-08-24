@@ -19,7 +19,7 @@
       </resource>
     </resources>
     <plugins>
-      <plugin>
+      <!--plugin>
 	<groupId>org.easyb</groupId>
 	<artifactId>maven-easyb-plugin</artifactId> 
 	<version>1.2</version>
@@ -37,7 +37,7 @@
 	  <storyType>html</storyType>
 	  <jvmArguments>-Dwebtest.home=${webtest.home}</jvmArguments>
 	</configuration>
-      </plugin>
+      </plugin-->
       <plugin>
 	<artifactId>maven-surefire-plugin</artifactId>
 	<version>2.9</version>
